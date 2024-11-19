@@ -3,10 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selamat Datang</title>
+    <title>Tampilan Feminin dan Responsif</title>
+
+    <!-- Menambahkan CDN Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Menggunakan Google Fonts untuk font feminin dan elegan -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        /* Mengatur font dan latar belakang agar lebih feminin */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f7f7f7;
+        }
+
+        /* Header dengan latar belakang pink lembut */
+        header {
+            background-color: #ff80ab;
+            padding: 30px 0;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-weight: 600;
+            font-size: 3rem;
+        }
+
+        /* Styling card untuk tampilan yang lebih modern dan feminin */
+        .card {
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-body {
+            background-color: #fff;
+            border-radius: 15px;
+            padding: 30px;
+        }
+
+        .card-title {
+            font-size: 1.75rem;
+            color: #ff4081;
+        }
+
+        .card-text {
+            color: #6c757d;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            background-color: #ff4081;
+            border: none;
+            font-weight: 500;
+        }
+
+        .btn-primary:hover {
+            background-color: #ff80ab;
+        }
+
+        /* Footer dengan teks kecil dan latar belakang putih */
+        footer {
+            background-color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+
+        /* Responsivitas layout */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .card {
+                margin-top: 20px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>SELAMAT DATANG!</h1>
-    <p>Terima kasih telah bergabung di Website Kami. Media belajar kita beraksi!</p>
+
+    <!-- Header dengan judul -->
+    <header>
+        <h1>Selamat Datang di Web Fuji!</h1>
+        <p>Desain yang elegan dan nyaman</p>
+    </header>
+
+    <!-- Konten utama -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Gambar">
+                    <div class="card-body">
+                        <h5 class="card-title">materi belajar</h5>
+                        <p class="card-text">materi esklusif by fuji untuk mencerdaskan anak bangsa.</p>
+                        <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Gambar">
+                    <div class="card-body">
+                        <h5 class="card-title">materi bootstrap</h5>
+                        <p class="card-text">belajar framework biar jago dan cantik.</p>
+                        <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Gambar">
+                    <div class="card-body">
+                        <h5 class="card-title">materi css</h5>
+                        <p class="card-text">belajar css agar lebih menarik.</p>
+                        <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Web Feminin - Semua hak cipta dilindungi</p>
+    </footer>
+
+    <!-- Menambahkan CDN Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
